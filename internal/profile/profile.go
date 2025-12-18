@@ -90,7 +90,7 @@ func (m *Manager) GetVariable(projectName, env, key string) (*envx.Variable, err
 	return &variable, nil
 }
 
-func (m *Manager) ListVariable(projectName, env string) (map[string]envx.Variable, error) {
+func (m *Manager) ListVariables(projectName, env string) (map[string]envx.Variable, error) {
 	project, err := m.storage.LoadProject(projectName)
 	if err != nil {
 		return nil, err
