@@ -29,6 +29,16 @@ func New() (*Storage, error) {
 	return &Storage{basePath: basePath}, nil
 }
 
+// NewWithBasePath creates storage using a custom base path (for tests)
+func NewWithBasePath(basePath string) (*Storage, error) {
+	if err := os.MkdirAll(basePath, 0755); err != nil {
+		return nil, fmt.Errorf("failed to create base directory: %w", err)
+	}
+
+	return &Storage{basePath: basePath}, nil
+}
+
+
 // save project
 func(s *Storage) SaveProject(project *envx.Project) error {
 	projectPath := filepath.Join(s.basePath, project.Name+".json")
