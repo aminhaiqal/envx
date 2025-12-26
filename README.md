@@ -17,33 +17,33 @@ A blazingly fast, local-first CLI tool to manage environment variables across al
 
 ---
 
-## 🎯 Why envx?
+## Why envx?
 
 Managing environment variables shouldn't require a PhD. **envx** is built for solo developers who want:
 
-- ⚡ **Instant access** to env vars across projects
-- 🗂️ **Zero configuration** - just install and go
-- 🚀 **Local-first** - no servers, no cloud, no complexity
-- 💻 **One command** to switch between dev/staging/prod
+- **Instant access** to env vars across projects
+- **Zero configuration** - just install and go
+- **Local-first** - no servers, no cloud, no complexity
+- **One command** to switch between dev/staging/prod
 
 Stop juggling `.env` files. Stop losing configurations. Stop the chaos.
 
 **envx makes environment management invisible.**
 
-## ✨ Features
+## Features
 
-- 🚀 **Blazingly Fast** - Written in Go, optimized for speed
-- 🗂️ **Multi-Project** - Manage unlimited projects from one place
-- 🌍 **Multi-Environment** - Dev, staging, production profiles
-- 📦 **Import/Export** - Works seamlessly with `.env` files
-- 🔒 **Secure Storage** - Encrypted values for sensitive data (Phase 4)
-- 📋 **Smart Templates** - Share env structure without secrets
-- 💻 **Cross-Platform** - macOS, Linux, Windows support
-- 🎨 **Beautiful CLI** - Intuitive interface, clear output
-- 🔄 **Git-Friendly** - Optional version control integration
-- 🛠️ **Zero Dependencies** - Single binary, no runtime required
+- **Blazingly Fast** - Written in Go, optimized for speed
+- **Multi-Project** - Manage unlimited projects from one place
+- **Multi-Environment** - Dev, staging, production profiles
+- **Import/Export** - Works seamlessly with `.env` files
+- **Secure Storage** - Encrypted values for sensitive data (Phase 4)
+- **Smart Templates** - Share env structure without secrets
+- **Cross-Platform** - macOS, Linux, Windows support
+- **Beautiful CLI** - Intuitive interface, clear output
+- **Git-Friendly** - Optional version control integration
+- **Zero Dependencies** - Single binary, no runtime required
 
-## 📦 Installation
+## Installation
 
 ### Using Go
 
@@ -70,7 +70,7 @@ cd envx
 go build -o envx cmd/envx/main.go
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Initialize your first project
 
@@ -122,7 +122,7 @@ envx export myapp && npm run dev
 envx export myapp --env production -o .env.prod
 ```
 
-## 📖 Documentation
+## Documentation
 
 ### Core Commands
 
@@ -398,7 +398,7 @@ envx stores data locally in a secure location:
 **Project data:**
 - `~/.config/envx/projects/<project-name>.json`
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 envx/
@@ -444,7 +444,7 @@ envx/
         └── lint.yml
 ```
 
-## 🛠️ Development
+## Development
 
 ### Prerequisites
 
@@ -568,7 +568,7 @@ This project covers essential Go concepts:
 - Cross-platform builds
 - Package distribution
 
-## 🤝 Contributing
+## Contributing
 
 Contributions make open source amazing! Whether you're fixing bugs, adding features, or improving docs—**all contributions are welcome**.
 
@@ -582,43 +582,43 @@ Contributions make open source amazing! Whether you're fixing bugs, adding featu
 
 ### Development Guidelines
 
-- ✅ Write tests for new features
-- ✅ Follow Go conventions and best practices
-- ✅ Update documentation for user-facing changes
-- ✅ Keep commits atomic and descriptive
-- ✅ Run tests before submitting PR
-- ✅ Add examples for new commands
+- Write tests for new features
+- Follow Go conventions and best practices
+- Update documentation for user-facing changes
+- Keep commits atomic and descriptive
+- Run tests before submitting PR
+- Add examples for new commands
 
 ### Good First Issues
 
 Look for issues labeled `good-first-issue` to get started!
 
-## 💬 Community & Support
+## Community & Support
 
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/aminhaiqal/envx/issues/new?template=bug_report.md)
-- 💡 **Feature Requests**: [Open an issue](https://github.com/aminhaiqal/envx/issues/new?template=feature_request.md)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/aminhaiqal/envx/discussions)
-- 📖 **Docs**: [Wiki](https://github.com/aminhaiqal/envx/wiki)
+- **Bug Reports**: [Open an issue](https://github.com/aminhaiqal/envx/issues/new?template=bug_report.md)
+- **Feature Requests**: [Open an issue](https://github.com/aminhaiqal/envx/issues/new?template=feature_request.md)
+- **Discussions**: [GitHub Discussions](https://github.com/aminhaiqal/envx/discussions)
+- **Docs**: [Wiki](https://github.com/aminhaiqal/envx/wiki)
 
-## 📝 License
+## License
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
 
 ## 🌟 Show Your Support
 
 If envx makes your dev life easier, consider:
-- ⭐ **Starring** this repo
-- 🐦 **Sharing** on Twitter
-- 📝 **Writing** about your experience
-- 🤝 **Contributing** code or docs
+- **Starring** this repo
+- **Sharing** on Twitter
+- **Writing** about your experience
+- **Contributing** code or docs
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with [Cobra](https://github.com/spf13/cobra) for CLI framework
 - Inspired by the need for simpler env management
 - Thanks to all contributors who make this project better
 
-## 📬 Contact
+## Contact
 
 **Amin Haiqal**
 - GitHub: [@aminhaiqal](https://github.com/aminhaiqal)
@@ -632,6 +632,6 @@ If envx makes your dev life easier, consider:
 
 **Built with ❤️ and Go by a developer, for developers**
 
-[⭐ Star this repo](https://github.com/aminhaiqal/envx/stargazers) • [🐛 Report Bug](https://github.com/aminhaiqal/envx/issues) • [💡 Request Feature](https://github.com/aminhaiqal/envx/issues)
+[⭐ Star this repo](https://github.com/aminhaiqal/envx/stargazers) • [Report Bug](https://github.com/aminhaiqal/envx/issues) • [Request Feature](https://github.com/aminhaiqal/envx/issues)
 
 </div>
