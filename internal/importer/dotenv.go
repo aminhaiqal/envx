@@ -51,8 +51,10 @@ func (i *Importer) ImportFromDotenv(filePath string) (map[string]envx.Variable, 
 			Key:       key,
 			Value:     value,
 			IsSecret:  false,
-			CreatedAt: time.Now(),
-			UpdatedAt: time.Now(),
+			Base: envx.Base{
+				CreatedAt: time.Now(),
+				UpdatedAt: time.Now(),
+			},
 		}
 	}
 
